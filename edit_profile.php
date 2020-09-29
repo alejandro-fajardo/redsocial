@@ -11,7 +11,7 @@
 		<hr>
 		<button class="btn btn-success">Cambiar Foto de Perfil</button>
       </div>
-		<div class="col-md-10">
+		<div class="col-md-9" style="margin-left:3%" id="div_form_edit">
 			<?php
 	$query = $conn->query("select * from members where member_id = '$session_id'");
 	$row = $query->fetch();
@@ -20,30 +20,30 @@
 	<hr>
 					<form method="post" action="save_edit.php">
 	<input type="hidden" name="member_id" value="<?php echo $id; ?>">
-	Usuario:<input type="text" name="username" value="<?php echo $row['username']; ?>">
+	Usuario:<input class="register-input" type="text" name="username" value="<?php echo $row['username']; ?>">
 	<hr>
-	Nombre:<input type="text" name="firstname" value="<?php echo $row['firstname']; ?>">
+	Nombre:<input class="register-input" type="text" name="firstname" value="<?php echo $row['firstname']; ?>">
 	<hr>
-	Apellido:<input type="text" name="lastname" value="<?php echo $row['lastname']; ?>">
+	Apellido:<input class="register-input" type="text" name="lastname" value="<?php echo $row['lastname']; ?>">
 	<hr>
 	Género:
-	<select name="gender">
+	<select name="gender" class="register-input">
 		<option><?php echo $row['gender']; ?></option>
 		<option>Hombre</option>
 		<option>Mujer</option>
 	</select>
 	<hr>
-	Fecha de Nacimiento:<input name="birthdate" type="text" value="<?php echo $row['birthdate']; ?>">
+	Fecha de Nacimiento:<input class="register-input" name="birthdate" type="text" value="<?php echo $row['birthdate']; ?>">
 	<hr>
-	Dirección:<input name="address" type="text" value="<?php echo $row['address']; ?>">
+	Dirección:<input class="register-input" name="address" type="text" value="<?php echo $row['address']; ?>">
 	<hr>
-	Estado:<input name="status" type="text" value="<?php echo $row['status']; ?>">
+	Estado:<input class="register-input" name="status" type="text" value="<?php echo $row['status']; ?>">
 	<hr>
-	Móvil:<input name="mobile" type="text" value="<?php echo $row['mobile']; ?>">
+	Móvil:<input class="register-input" name="mobile" type="text" value="<?php echo $row['mobile']; ?>">
 	<hr>
-	Trabajo:<input name="work" type="text" value="<?php echo $row['work']; ?>">
+	Trabajo:<input class="register-input" name="work" type="text" value="<?php echo $row['work']; ?>">
 	<hr>
-	Religión:<input name="religion" type="text" value="<?php echo $row['religion']; ?>">
+	Religión:<input class="register-input" name="religion" type="text" value="<?php echo $row['religion']; ?>">
 	<hr>
 	<br>
 			<center>

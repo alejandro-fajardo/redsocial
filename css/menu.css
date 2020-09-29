@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+* 
+{
+	margin:0px;
+	padding:0px;
+}
+
+#headerMenu {
+	margin:auto;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#FFFFFF;
+	color:#000000;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#ff9900;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+/*------------*/
+#bloque1{
+	margin: 10px 10px 10px 10px;
+	overflow:hidden;
+	background-color: white;
+}
+#foto{
+	align-content: center;
+	width: 20%;
+	float: left;
+}
+
+#menuInformacion{
+	width: 80%;
+	float: left;
+	overflow: hidden;
+}
+
+#nombre{
+	width: 20%;
+	float: left;
+}
+
+#logo{
+	
+	align-content: center;
+	width: 80%;
+	float: right;
+}
+
+#menuInformacion li{
+	width: 15%;
+	font-weight: bold;
+	font-size: 20px;
+}
+#nombreHeader{
+	font-size: 25px;
+}
+
+#info_profile{
+	font-size: 20px;
+	color:black !important;
+}
+
+.btn{
+	background-color: #ff9900 !important;
+	color:black;
+	border: 3px solid black;
+	font-size: 15px;	
+	font-weight: bold;
+	margin-bottom: 10px;	
+	
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	text-align: center;
+	line-height:100px;
+}
+::-webkit-input-placeholder { /* Webkit */
+	text-align: center;
+	line-height:100px;
+}
+:-ms-input-placeholder { /* IE */
+	text-align: center;
+	line-height:100px;
+}
+
+/* all the input except submit and checkbox */
+.register-input{
+	width: 92%;
+	margin-top: 4px;
+	padding: 10px 5px 10px 32px;	
+	border: 2px solid black;
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+#div_form_edit{
+	font-size: 20px;
+	color:black;
+	font-weight: bold;
+}

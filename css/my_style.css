@@ -77,15 +77,16 @@ header {
 }
 body {
 	font-family: 'TR Century Gothic' !important;
-  padding-top:50px;
   color:#646464;
-  background-color:#efefef;
+  background-color:white;
+  font-size: 20px !important;
 }
 
 h1,h2,h3,.highlight,.navbar a,#masthead h4 {
   font-family:'Oswald',arial narrow,sans-serif;
 }
 .combo{
+    
     margin-bottom: 13px;
     padding: 7px;
     width: 301px;

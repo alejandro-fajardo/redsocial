@@ -1,33 +1,29 @@
         
-        <header class="navbar navbar-bright navbar-fixed-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="home.php" class="navbar-brand"><i class="icon-home"></i> Inicio</a>
-    </div>
-    <nav class="collapse navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li><a href="profile.php"><i class="icon-user"></i> Perfil</a></li>
-        <li><a href="photos.php"><i class="icon-picture"></i> Fotos</a></li>
-        <li><a href="friends.php"><i class="icon-group"></i> Amigos</a></li>
-		<li><a href="message.php"><i class="icon-group"></i> Mensaje</a>
-        </li>
-        <li>
-          <a href="logout.php"><i class="icon-signout"></i> Cerrar Sesión</a>
-        </li>
-      </ul>
-  
-		<div class="pull-right">
-            <form class="form-inline" method="post" action="search.php">
-             <input type="text" name="search" class="form-control"  id="span5" placeholder="Buscar">
-            </form>
+<div id="ppal">
+		<div id="bloque1">
+			<div align="center" id="foto">
+				<img  width="100%" src="images/img1.png">
+			</div>
+			<div id="menuInformacion">
+        <div style="overflow:hidden;">
+            <div style="float: left;width:40%;">
+              <div align="left" id="nombreHeader"><h1 style="color:#FF9900">Juan Alzate</h1></div>
+            </div>
+            <div style="float: left;width:60%;">
+              <div align="Right" id="logo"><img width="28%" src="images/logo_two.png"></div>	
+            </div>
+        </div>
+				<div align="left" id="headerMenu">
+					<ul align="left" class="nav">
+						<li><a href="home.php">Inicio</a></li>
+						<li><a href="profile.php">Perfil</a></li>
+						<li><a href="photos.php">Fotos</a></li>
+						<li><a href="friends.php">Amigos</a></li>
+						<li><a href="message.php">Mensaje</a></li>
+						<li><a href="logout.php">Cerrar Sesion</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-   
-    </nav>
-  </div>
-</header>
+	</div>
+	<hr style="border: 2px solid orange;margin:3%">

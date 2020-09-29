@@ -5,7 +5,7 @@
 		<hr>
 		<a class="btn btn-success" href="change_pic.php">Cambiar Foto de Perfil</a>
       </div>
-		<div class="col-md-5">
+		<div class="col-md-5" style="margin-left:3%">
 			<hr>
 			<p>Información Personal</p>
 				<?php
@@ -19,12 +19,12 @@
 			<p>Dirección: <?php echo $row['address']; ?></p>
 			<hr>
 		</div>
-      <div class="col-md-5">
+      <div class="col-md-3">
 			<form method="post" action="post.php">
-						<textarea name="content" placeholder="Haz tus comentarios aquí"></textarea>
-						<br>
-						<hr>
-						<button class="btn btn-success"><i class="icon-share"></i> Compartir </button>
+				<textarea name="content" placeholder="Haz tus comentarios aquí"></textarea>
+				<br>
+				<hr>
+				<button class="btn btn-success"><i class="icon-share"></i> Compartir </button>
 			</form>
       </div>
     </div> 

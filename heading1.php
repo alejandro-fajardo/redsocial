@@ -1,10 +1,5 @@
-    <div class="row">
-      <div class="col-md-2">
-		<hr>
-		<center><img class="pp" src="<?php echo $image; ?>" height="140" width="160"></center>
-		<hr>
-		<a class="btn btn-success" href="change_pic.php">Cambiar Foto de Perfil</a>
-      </div>
+    <div class="row" id="info_profile">
+      
 		<div class="col-md-10">
 			<hr>
 			<div class="pull-right"><a href="edit_profile.php" class="btn btn-info"><i class="icon-pencil"></i> Editar</a></div>
@@ -29,7 +24,7 @@
 						<hr>
 			<p>Estado: <?php echo $row['status']; ?></p>
 						<hr>
-				<p>Trabajo: <?php echo $row['work']; ?></p>
+				<p>Trabajo: <?php echo utf8_encode($row['work']); ?></p>
 			<hr>
 				<p>Religión: <?php echo $row['religion']; ?></p>
 		</div>
