@@ -1,6 +1,6 @@
   
 							<form  method="post" action="login.php" autocomplete="on"> 
-                                <h3 id="login_title">Ingresar</h3> 
+                                <h3 class="login_title">Ingresar</h3> 
 								<hr color="black">
                                 <p> 
                                     <label for="username" class="uname" data-icon="u" > Usuario </label>

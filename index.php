@@ -27,7 +27,9 @@
                         </div>  
                     </div>
                     <div>
-                        <div id="register">
+                        <div id="register" style="display:none">
+                            <img src="./images/logo.png" alt="" style="margin-left:15%;width:40%;">
+                            <br>
                             <?php include('sign_up_form.php'); ?>
                         </div>
                     </div>
