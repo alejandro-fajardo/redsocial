@@ -98,8 +98,10 @@ a.hiddenanchor{
 	margin: 0px;
 }
 #wrapper label{
-	color: rgb(64, 92, 96);
+	color: black;
 	position: relative;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 /**** advanced input styling ****/
@@ -122,7 +124,7 @@ input {
 	width: 92%;
 	margin-top: 4px;
 	padding: 10px 5px 10px 32px;	
-	border: 1px solid rgb(178, 178, 178);
+	border: 2px solid black;
 	-webkit-appearance: textfield;
 	-webkit-box-sizing: content-box;
 	  -moz-box-sizing : content-box;
@@ -151,7 +153,7 @@ input {
 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'FontomasCustomRegular';
-    color: rgb(106, 159, 171);
+    color:#ff9900;
     position: absolute;
     left: 10px;
     top: 35px;
@@ -162,37 +164,23 @@ input {
 #wrapper p.button input{
 	width: 30%;
 	cursor: pointer;	
-	background: rgb(61, 157, 179);
+	background:#ff9900;
 	padding: 8px 5px;
 	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
-	color: #fff;
+	color: black;
 	font-size: 24px;	
-	border: 1px solid rgb(28, 108, 122);	
+	border: 3px solid black;	
 	margin-bottom: 10px;	
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;	
-	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
-	        0px 0px 0px 3px rgb(254, 254, 254),
-	        0px 5px 3px 3px rgb(210, 210, 210);
-	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
-	        0px 0px 0px 3px rgb(254, 254, 254),
-	        0px 5px 3px 3px rgb(210, 210, 210);
-	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
-	        0px 0px 0px 3px rgb(254, 254, 254),
-	        0px 5px 3px 3px rgb(210, 210, 210);
-	-webkit-transition: all 0.2s linear;
-	   -moz-transition: all 0.2s linear;
-	     -o-transition: all 0.2s linear;
-	        transition: all 0.2s linear;
+	-webkit-box-shadow: 11px 6px 0px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 6px 0px -4px rgba(0,0,0,0.75);
+	box-shadow: 11px 6px 0px -4px rgba(0,0,0,0.75);
 }
 #wrapper p.button input:hover{
-	background: rgb(74, 179, 198);
+	background: #ff9900;
 }
 #wrapper p.button input:active,
 #wrapper p.button input:focus{
-	background: rgb(40, 137, 154);
+	background:#ff9900;
 	position: relative;
 	top: 1px;
 	border: 1px solid rgb(12, 76, 87);	
@@ -229,14 +217,15 @@ p.signin.button{
 
 p.change_link{
 	position: absolute;
-	color: rgb(127, 124, 124);
+	color:white;
 	left: 0px;
 	height: 20px;
 	width: 440px;
 	padding: 17px 30px 20px 30px;
 	font-size: 16px	;
+	font-weight: bold;
 	text-align: right;
-	border-top: 1px solid rgb(219, 229, 232);
+	border-top: 2px solid black;
 	-webkit-border-radius: 0 0  5px 5px;
 	   -moz-border-radius: 0 0  5px 5px;
 	        border-radius: 0 0  5px 5px;
@@ -275,7 +264,7 @@ p.change_link{
 	font-weight: bold;
 	background: rgb(247, 248, 241);
 	padding: 2px 6px;
-	color: rgb(29, 162, 193);
+	color: black;
 	margin-left: 10px;
 	text-decoration: none;
 	-webkit-border-radius: 4px;
@@ -287,6 +276,10 @@ p.change_link{
 	-o-transition: all 0.4s linear;
 	-ms-transition: all 0.4s  linear;
 	transition: all 0.4s  linear;
+	border: 3px solid black;
+	-webkit-box-shadow: 11px 6px 0px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 6px 0px -4px rgba(0,0,0,0.75);
+	box-shadow: 11px 6px 0px -4px rgba(0,0,0,0.75);
 }
 #wrapper p.change_link a:hover {
 	color: rgb(57, 191, 215);
@@ -389,4 +382,26 @@ p.change_link{
 	position: absolute;
 	height: 90px;
 	background: transparent;
+}
+
+/**Red social*/
+#line_vertical{
+	border-left: 4px solid black;
+	height: 550px;
+	margin-top: 20px;
+	margin-bottom: 20px;  
+}
+#login_image{
+    margin-top:20%;
+    margin-left:20%;
+    width:70%;
+}
+#content_login{
+    margin-top:15%;
+}
+#login_title{
+	color: black;
+	position: relative;
+	font-size: 20px;
+	font-weight: bold;
 }

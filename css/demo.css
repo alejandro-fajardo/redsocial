@@ -42,7 +42,7 @@ table {
 	border-spacing:0;
 }
 #wrapper p.button input {
-    background: none repeat scroll 0 0 #3D9DB3;
+    background: none repeat scroll 0 0 #3d9db3;
     border: 1px solid #1C6C7A;
     border-radius: 3px;
     box-shadow: 0 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0 0 0 3px #FEFEFE, 0 5px 3px 3px #D2D2D2;
@@ -70,8 +70,7 @@ caption,th {
 	text-align:left;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-size:100%;
-	font-weight:normal;
+
 }
 q:before,q:after {
 	content:'';
