@@ -30,6 +30,6 @@
 								</p>
                                 <p class="change_link">  
 									Ya estás registrado ?
-									<a href="#tologin" class="to_register"> Ingresar </a>
+									<a onClick="changeLogin()" class="to_register"> Ingresar </a>
 								</p>
                             </form>

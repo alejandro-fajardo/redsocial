@@ -7,6 +7,6 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-glyphicons.css" type="text/css" rel="stylesheet">
 		<link href="css/font-awesome.css" type="text/css" rel="stylesheet">
-		<link href="css/my_style.css" type="text/css" rel="stylesheet">
+        <link href="css/my_style.css" type="text/css" rel="stylesheet">
 	</head>
 	<?php include('dbcon.php'); ?>

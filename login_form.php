@@ -15,6 +15,6 @@
 								</p>
                                 <p class="change_link">
 									Aun no eres miembro ?
-									<a href="#toregister" class="to_register">Regístrate</a>
+									<a onClick="changeRegister()" class="to_register">Regístrate</a>
 								</p>
                             </form>

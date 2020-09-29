@@ -11,7 +11,7 @@
 				
                     <a class="hiddenanchor" id="toregister"></a>
                     <a class="hiddenanchor" id="tologin"></a>
-                    <div style="overflow:hidden;">
+                    <div style="overflow:hidden;" id="content_login_div">
                         <div id="info_login" style="float: left;width:55%;">
                             <img src="./images/login_image.PNG" alt="" id="login_image" >
                         </div>
@@ -23,11 +23,13 @@
                                     <img src="./images/login_header.PNG" alt="" style="margin-left:15%">
                                     <?php include('login_form.php'); ?>
                                 </div>
-                                <div id="register" class="animate form">
-                                        <?php include('sign_up_form.php'); ?>
-                                </div>
                             </div>
                         </div>  
+                    </div>
+                    <div>
+                        <div id="register">
+                            <?php include('sign_up_form.php'); ?>
+                        </div>
                     </div>
                 </div>  
             </section>
