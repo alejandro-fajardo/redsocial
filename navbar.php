@@ -1,16 +1,16 @@
-        
+
 <div id="ppal">
 		<div id="bloque1">
-			<div align="center" id="foto">
-				<img  width="100%" src="images/img1.png">
+			<div align="center" id="foto"><br>
+				<img width="50%" src="<?php echo $image; ?>" class="img-circle">
 			</div>
 			<div id="menuInformacion">
         <div style="overflow:hidden;">
             <div style="float: left;width:40%;">
-              <div align="left" id="nombreHeader"><h1 style="color:#FF9900">Juan Alzate</h1></div>
+              <div align="left" id="nombreHeader"><h2 style="color:#FF9900"><?php echo $username ?></h2></div>
             </div>
             <div style="float: left;width:60%;">
-              <div align="Right" id="logo"><img width="28%" src="images/logo_two.png"></div>	
+              <div align="Right" id="logo"><img width="18%" src="images/logo_two.png"></div>	
             </div>
         </div>
 				<div align="left" id="headerMenu">
@@ -26,4 +26,4 @@
 			</div>
 		</div>
 	</div>
-	<hr style="border: 2px solid orange;margin:3%">
+	<hr style="border: 2px solid orange;margin:1%">

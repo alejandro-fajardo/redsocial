@@ -1,20 +1,22 @@
     <div class="row">
       <div class="col-md-2">
 		<hr>
-		<center><img class="pp" src="<?php echo $image; ?>" height="140" width="160"></center>
+		<center><img class="img-circle" src="<?php echo $image; ?>" width="50%"></center>
 		<hr>
 		<a class="btn btn-success" href="change_pic.php">Cambiar Foto de Perfil</a>
       </div>
-		<div class="col-md-5" style="margin-left:3%">
+		<div class="col-md-5" style="margin-left:3%; font-size: 15px;" >
 			<hr>
-			<p>Información Personal</p>
+			<p><b>Información Personal</b></p>
 				<?php
 			$query = $conn->query("select * from members where member_id = '$session_id'");
 			$row = $query->fetch();
 			$id = $row['member_id'];
 			?>
 			<hr>
-			<p>Nombre: <?php echo $row['firstname']." ".$row['lastname']; ?><span class="margin-p"> </span>Género: <?php echo $row['gender']; ?></p>
+			<p>Nombre: <?php echo $row['firstname']." ".$row['lastname']; ?></p>
+			<hr>
+			<p>Género: <?php echo $row['gender']; ?></p>
 			<hr>
 			<p>Dirección: <?php echo $row['address']; ?></p>
 			<hr>

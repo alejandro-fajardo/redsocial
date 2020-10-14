@@ -62,27 +62,31 @@
 			
           <div class="row">  		  
             <hr>
-            <hr>
+			<br><br>
 				<?php
 	$query = $conn->query("select * from photos where member_id='$session_id'");
+	$Ind =1 ;
 	while($row = $query->fetch()){
 	$id = $row['photos_id'];
 	?>
-            <div class="col-md-2 col-sm-3 text-center">
-				<img class="photo" src="<?php echo $row['location']; ?>" >
-				<hr>
-	<a class="btn btn-danger" href="delete_photos.php<?php echo '?id='.$id; ?>"><i class="icon-remove"></i> Eliminar</a>
-            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-				<?php } ?>
+<div class="col-md-4 col-sm-4 text-center">
+		<img class="photo" src="<?php echo $row['location']; ?>" width="100%" >
+		<hr>
+<a class="btn btn-danger" href="delete_photos.php<?php echo '?id='.$id; ?>"><i class="icon-remove"></i> Eliminar</a>
+	</div>
+	<?php
+	if($Ind==3){
+		$Ind=0;
+		?>	
+		
+		<div class="row"></div>
+		<br><br><br>
+			<?php }
+			
+		$Ind++;} ?>
           </div>
-          <hr>
-                  
-    
-
-
-          
-
-
+        
+            
           
         </div>
       </div>

@@ -12,7 +12,7 @@
 			$id = $row['member_id'];
 			?>
 			<hr>
-			<p>Nombre: <?php echo $row['firstname']." ".$row['lastname']; ?><span class="margin-p"> </span>Género: <?php echo $row['gender']; ?></p>
+			<p>Nombre: <?php echo $row['firstname']." ".$row['lastname']; ?></p>
 			<hr>
 			<p>Dirección: <?php echo $row['address']; ?></p>
 			<hr>
